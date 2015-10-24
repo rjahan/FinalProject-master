@@ -7,7 +7,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,6 +24,15 @@
         <activity android:name=".LoginSignupActivity" >
         </activity>
         <activity android:name=".Welcome" >
+        </activity>
+        <activity
+            android:name=".refillRequest"
+            android:label="@string/title_activity_refill_request" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
